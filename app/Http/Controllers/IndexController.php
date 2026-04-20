@@ -8,4 +8,9 @@ class IndexController extends Controller
     {
         return view('home');
     }
+
+    public function inquiry()
+    {
+        return view('inquiry');
+    }
 }

@@ -1,3 +1,6 @@
+.redborder{
+    border: 2px solid red;
+}
 * {
     font-family: 'Overused Grotesk', 'Arial', sans-serif;
     font-optical-sizing: auto;
@@ -7,5 +10,362 @@
     color: $white;
     @media(max-width: 991px){
         font-size: 12px;
+    }
+}
+
+.content-body-kitchen-tailor{
+    background-color: white;
+}
+
+.custom-container{
+    padding: 4vw 6vw;
+    @media(max-width:991px){
+        padding: 4vw 0;
+    }
+    &.kitchen-tailor-home-container{
+        padding: 0;
+    }
+
+    &.kitchen-tailor-header-container{
+        padding: 1vw 6vw;
+        @media(max-width:991px){
+            padding: 3vw 0;
+        }
+    }
+    &.kitchen-tailor-title-1-container{
+       padding: 4vw 6vw; 
+    }
+    &.kitchen-tailor-fade-container, &.kitchen-tailor-end-container{
+        padding: 0vw 2vw;
+        @media(max-width:991px){
+            padding: 0;
+        }
+        @media(max-width:767px){
+            padding: 3vw 0;
+        }
+    }
+    &.kitchen-tailor-footer-container{
+        padding: 4vw 2vw 2vw 2vw;
+        @media(max-width:991px){
+            padding: 5vw 0;
+        }
+    }
+    &.kitchen-tailor-navigation-container{
+        padding: 2vw 2vw;
+        width: 20%;
+        height: 100vh;
+        background-color: rgba(255, 255, 255);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        @media(max-width:991px){
+            width: 102%;
+        }
+    }
+}
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &.flex-column-center{
+        flex-direction: column;
+    }
+}
+.d-flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.d-flex-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gothic-font{
+    margin-bottom: 0px;
+    font-family: 'Engravers-Gothic', 'Overused Grotesk Semibold', sans-serif;
+}
+
+.font-kitchen-tailor{
+    color : $kitchen-tailor-main-color !important;
+}
+.font-kitchen-tailor-icon path {
+    fill: $kitchen-tailor-main-color !important;
+}
+.font-kitchen-tailor-icon {
+    color: $kitchen-tailor-main-color;
+    font-size: 23px;
+    @media(max-width:767px){
+        font-size: 17px;
+    }
+    &.inquiry-icon{
+        font-size: 20px;
+        @media(max-width:767px){
+            font-size: 15px;
+        }
+    }
+}
+.font-kitchen-tailor-black{
+    color : $black;
+}
+
+#kitchen-tailor-content{
+    .kitchen-tailor-font-title-1{
+        font-size: 38px;
+        @media(max-width:1999px){
+            font-size: 38px;
+        }
+        @media(max-width:1499px){
+            font-size: 38px;
+        }
+        @media(max-width:991px){
+            font-size: 34px;
+        }
+        @media(max-width:767px){
+            font-size: 23px;
+        }
+    }
+    .kitchen-tailor-font-header{
+        font-size: 38px;
+        @media(max-width:1999px){
+            font-size: 38px;
+        }
+        @media(max-width:1499px){
+            font-size: 28px;
+        }
+        @media(max-width:991px){
+            font-size: 28px;
+        }
+        @media(max-width:767px){
+            font-size: 24px;
+        }
+    }
+    .kitchen-tailor-font-footer{
+        font-size: 20px;
+        @media(max-width:767px){
+            font-size: 15px;
+        }
+    }
+    .footer-clickable{
+        transition: transform 0.3s ease;
+        &:hover{
+            cursor: pointer;
+            transform: translateY(-5px); // move up slightly
+        }
+    }
+    .kitchen-tailor-font-navigation{
+        font-size: 23px;
+        @media(max-width:991px){
+            font-size: 25px;
+        }
+        @media(max-width:767px){
+            font-size: 23px;
+        }
+    }
+    .kitchen-tailor-font-button{
+        font-size: 15px;
+    }
+    #kitchen-tailor-navigation {
+        display: none;
+        opacity: 0;
+        transform: translateX(-80px);
+        z-index: 100;
+        position: fixed;
+    }
+
+    .nav-animate {
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    .kitchen-tailor-font-inquiry-1{
+        font-size: 38px;
+        @media(max-width:767px){
+            font-size: 23px;
+        }
+    }
+    .kitchen-tailor-font-inquiry-2{
+        font-size: 17px;
+        @media(max-width:767px){
+            font-size: 15px;
+        }
+    }
+    .kitchen-tailor-font-inquiry-3{
+        font-size: 15px;
+        @media(max-width:767px){
+            font-size: 13px;
+        }
+    }
+    #kitchen-tailor-header{
+        background-color: rgba(255, 255, 255, 0.95);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+    .inquire-button, .submit-inquire-button{
+        border: 1px solid $kitchen-tailor-main-color;
+        padding: 10px 30px;
+        background-color: transparent;
+        transition: background-color 0.3s ease, border-color 0.3s ease;
+        .kitchen-tailor-font-button{
+            color: black;
+            transition: color 0.3s ease;
+        }
+        &:hover{
+            background-color: $kitchen-tailor-main-color;
+            .kitchen-tailor-font-button{
+                color: white;
+            }
+        }
+    }
+    .input-half{
+        min-width: 50%;
+        color: black;
+        background-color: white;
+        border: 1px solid rgb(207, 207, 207);
+        height: 48px;
+        margin-bottom: 0;
+        padding: 8px 12px;
+        font-size: 14px;
+        line-height: 1.5em;
+        display: block;
+        @media(max-width:767px){
+            font-size: 12px;
+            min-width: 100%;
+        }
+        &.textarea{
+            min-width: 100%;
+            min-height: 100px;
+            line-height: 15px
+        }
+        
+    }
+    .navigation-button{
+        border: none;
+        padding: 0 10px;
+        background-color: transparent;
+        &.nav-close{
+            padding: 0 10px 65px 10px;
+            @media(max-width:991px){
+                padding: 20px 20px 65px 20px;
+            }
+            @media(max-width:767px){
+                padding: 10px 20px 65px 20px;
+            }
+        }
+    }
+    #kitchen-tailor-inquiry-bg{
+        background-image: url('/public/images/kitchen-tailor/Homepage-Banner-7.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+        min-height: 100vh;
+        padding: 4vw 6vw;
+    }
+    .kitchen-tailor-inquiry-container{
+        margin: 4vw 25vw;
+        background-color: #f7f7f7;
+        @media(max-width:991px){
+            margin: 0;
+            padding: 6vw;
+        }
+        @media(max-width:767px){
+            margin: 0;
+            padding: 6vw;
+        }
+    }
+    .footer-icons{
+        border: none;
+        background: transparent;
+        color: $kitchen-tailor-main-color;
+    }
+}
+
+// Additional CSS
+.fade-wrapper {
+    position: relative;
+    width: 97%;
+    overflow: hidden;   /* ensures overlay stays inside */
+}
+
+.fade-img {
+    width: 97%;
+    object-fit: contain;
+}
+.end-image {
+    width: 97%;
+    object-fit: contain;
+}
+
+/* The dark overlay */
+.fade-overlay {
+    width: 97%;
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0); /* start invisible */
+    transition: background 0.3s ease;
+}
+
+/* Text on top */
+.fade-text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    opacity: 0;                 /* hidden at start */
+    transition: opacity 0.3s ease;
+}
+
+/* Hover effect */
+.fade-wrapper:hover .fade-overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.fade-wrapper:hover .fade-text {
+    opacity: 1;
+}
+@media(max-width: 991px) {
+    .fade-wrapper .fade-overlay {
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .fade-wrapper .fade-text {
+        opacity: 1;
+    }
+}
+
+.fade-slider {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* adjust */
+    overflow: hidden;
+}
+
+.fade-slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-slider img.active {
+    opacity: 1;
+}
+.accent-line{
+    background-color: $kitchen-tailor-main-color;
+    width: 2%;
+    height: 1px;
+    margin-top: 5px;
+    @media(max-width:991px){
+        width: 10%;
     }
 }
