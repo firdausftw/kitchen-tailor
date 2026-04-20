@@ -5,6 +5,14 @@
 
         @include('header')
 
+        <div id="kitchen-tailor-full-banner" class="container-fluid px-0">
+            <div class="row custom-container kitchen-tailor-full-banner-container align-items-center">
+                <div class="d-flex-center">
+                    <h2 class="gothic-font font-kitchen-tailor kitchen-tailor-font-full-banner text-center">THE KITCHEN TAILOR</h2>
+                </div>
+            </div>
+        </div>
+
         <div id="kitchen-tailor-banner" class="container-fluid px-0">
             <div class="row custom-container kitchen-tailor-home-container align-items-center">
                 <div class="fade-slider">

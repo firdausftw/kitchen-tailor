@@ -4,6 +4,20 @@ import '@fortawesome/fontawesome-free/js/fontawesome';
 import '@fortawesome/fontawesome-free/js/solid';
 
 $(document).ready(function(){
+
+    setTimeout(function() {
+        $('.kitchen-tailor-font-full-banner').addClass('text-reveal');
+    }, 500);
+
+    setTimeout(function() {
+        $('#kitchen-tailor-full-banner').addClass('fade-out-now');
+        
+        // After the 1.5s transition finishes, move the z-index
+        setTimeout(function() {
+            $('#kitchen-tailor-full-banner').css('z-index', '-1');
+        }, 1500); 
+        
+    }, 3000);
     
     let index = 0;
     const slides = $(".fade-slider img");

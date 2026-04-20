@@ -26,6 +26,10 @@
         padding: 0;
     }
 
+    &.kitchen-tailor-full-banner-container{
+        height: 100vh;
+    }
+
     &.kitchen-tailor-header-container{
         padding: 1vw 6vw;
         @media(max-width:991px){
@@ -114,6 +118,30 @@
 }
 
 #kitchen-tailor-content{
+    .kitchen-tailor-font-full-banner{
+        font-size: 50px;
+        opacity: 0;
+        transform: scale(0.8); // Starts slightly smaller
+        display: inline-block; // Necessary for transform to work perfect
+        transition: opacity 1.7s ease-out, transform 1.7s cubic-bezier(0.22, 1, 0.36, 1);
+
+        &.text-reveal {
+            opacity: 1;
+            transform: scale(1); // Grows to original size
+        }
+        @media(max-width:1999px){
+            font-size: 50px;
+        }
+        @media(max-width:1499px){
+            font-size: 50px;
+        }
+        @media(max-width:991px){
+            font-size: 42px;
+        }
+        @media(max-width:767px){
+            font-size: 30px;
+        }
+    }
     .kitchen-tailor-font-title-1{
         font-size: 38px;
         @media(max-width:1999px){
@@ -175,6 +203,24 @@
         transform: translateX(-80px);
         z-index: 100;
         position: fixed;
+    }
+    #kitchen-tailor-full-banner{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; // Use vh for height to cover the full viewport
+        background-color: $white;
+        z-index: 9999; // Ensure it is above the header and everything else
+        transition: opacity 1.5s cubic-bezier(0.4, 0, 0.2, 1), visibility 1.5s;
+    
+        /* Ensure hardware acceleration for smoother animation */
+        will-change: opacity;
+        backface-visibility: hidden;
+    }
+    .fade-out-now {
+        opacity: 0 !important;
+        visibility: hidden;
     }
 
     .nav-animate {
