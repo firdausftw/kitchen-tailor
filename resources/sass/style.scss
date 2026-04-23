@@ -22,6 +22,15 @@
     @media(max-width:991px){
         padding: 4vw 0;
     }
+    &.collaborations-text-container{
+        padding: 4vw 14vw;
+        @media(max-width:991px){
+            padding: 5vw;
+        }
+        @media(max-width:767px){
+            padding: 8vw 0;
+        }
+    }
     &.kitchen-tailor-home-container{
         padding: 0;
     }
@@ -36,9 +45,6 @@
             padding: 3vw 0;
         }
     }
-    &.kitchen-tailor-title-1-container{
-       padding: 4vw 6vw; 
-    }
     &.kitchen-tailor-fade-container, &.kitchen-tailor-end-container{
         padding: 0vw 2vw;
         @media(max-width:991px){
@@ -46,6 +52,12 @@
         }
         @media(max-width:767px){
             padding: 3vw 0;
+        }
+    }
+    &.collaborations-content-container, &.gerobok-cendayam-img-container{
+        padding: 0vw 6vw 4vw 6vw;
+        @media(max-width:767px){
+            padding: 0;
         }
     }
     &.kitchen-tailor-footer-container{
@@ -124,6 +136,9 @@
 .font-kitchen-tailor-black{
     color : $black;
 }
+.font-kitchen-tailor-grey{
+    color : $grey;
+}
 
 #kitchen-tailor-content{
     .kitchen-tailor-font-full-banner{
@@ -148,6 +163,23 @@
         }
         @media(max-width:767px){
             font-size: 30px;
+        }
+    }
+    .font-collaborations-title{
+        margin-top: 0;
+        font-size: 50px;
+        @media(max-width:991px){
+            font-size: 34px;
+            margin-top: 9vw;
+        }
+        @media(max-width:767px){
+            font-size: 23px;
+        }
+    }
+    .font-collaborations-text{
+        font-size: 18px;
+        @media(max-width:767px){
+            font-size: 13px;
         }
     }
     .kitchen-tailor-font-title-1{
@@ -320,6 +352,34 @@
         min-height: 100vh;
         padding: 4vw 6vw;
     }
+    .collaborations-container{
+        background-image: url('/public/images/kitchen-tailor/kimpton-naluria/Collaborations-5.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+        min-height: 90vh;
+        padding: 4vw 6vw;
+        position: relative;
+        &.gerobok-cendayam-container{
+            background-image: url('/public/images/kitchen-tailor/gerobok-cendayam/Collaborations-1.jpeg');
+        }
+        &.kimpton-naluria-container{
+            background-image: url('/public/images/kitchen-tailor/kimpton-naluria/Collaborations-1.jpg');
+        }
+        @media(max-width:991px){
+            min-height: 45vh;
+        }
+        @media(max-width:767px){
+            min-height: 35vh;
+        }
+        &::before{
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 0;
+        }
+    }
     .kitchen-tailor-inquiry-container{
         margin: 4vw 25vw;
         background-color: #f7f7f7;
@@ -343,28 +403,141 @@
 .fade-wrapper {
     position: relative;
     width: 97%;
+    border-radius: 10px;
     overflow: hidden;   /* ensures overlay stays inside */
+}
+.collaboration-img-wrapper{
+    height: fit-content;
+    .center-top-wrapper, .left-top-wrapper{
+        height: 50vh;
+        position: relative;
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;   /* ensures overlay stays inside */
+        &.kimpton-naluria-container{
+            height: 60vh;
+            @media(max-width:991px){
+                height: 35vh;
+            }
+            @media(max-width:767px){
+                height: 25vh;
+            }
+        }
+    }
+    .left-top-wrapper{
+        height: 100vh;
+        @media(max-width:991px){
+            height: 75vh;
+        }
+        &.kimpton-naluria-wrapper{
+            height: 50vh;
+        }
+    }
+    .center-bottom-wrapper{
+        height: 30vh;
+        &.kimpton-naluria-wrapper{
+            height: 30vh;
+            @media(max-width:991px){
+                height: 75vh;
+            }
+            @media(max-width:767px){
+                height: 60vh;
+            }
+        }
+    }
+    .right-top-wrapper{
+        height: 81vh;
+    }
+    .right-bottom-wrapper{
+        padding: 1vw;
+    }
 }
 
 .fade-img {
     width: 97%;
     object-fit: contain;
+    border-radius: 10px;
+}
+.gerobok-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    &.img-left-top{
+        object-position: 100% 80%;
+        &.kimpton-left-top{
+            object-position: 77% 80%;
+        }
+    }
+    &.img-center-top{
+        object-position: 50% 80%;
+    }
+    &.img-center-bottom-left{
+        width: 99%;
+        object-position: 10% 80%;
+    }
+    &.img-center-bottom-right{
+        width: 97%;
+        object-position: 50% 80%;
+    }
 }
 .end-image {
+    border-radius: 10px;
     width: 97%;
     object-fit: contain;
 }
 
+.collaborations-img{
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    display: block;
+    width: 100%;
+}
+
 /* The dark overlay */
 .fade-overlay {
+    border-radius: 10px;
     width: 97%;
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0); /* start invisible */
     transition: background 0.3s ease;
+    &.collaborations-content-overlay{
+        width: 100%;
+        opacity: 1;
+        background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.6) 15%,
+            rgba(0, 0, 0, 0) 30%,
+        );
+        &.gerobok-cendayam-overlay{
+            width: 100%;
+            background: linear-gradient(
+                to top,
+                rgba(0, 0, 0, 0.7) 15%,
+                rgba(0, 0, 0, 0.5) 30%,
+                rgba(0, 0, 0, 0.3) 50%,
+                rgba(0, 0, 0, 0) 100%,
+            );
+        }
+    }
 }
 
 /* Text on top */
+.gerobok-cendayam-text-box{
+    padding: 4vw;
+    position: absolute;
+    inset: 0;
+    @media(max-width:991px){
+        padding: 6vw;
+    }
+    &.center-box {
+        padding: 1vw;
+        @media(max-width:991px){
+            padding: 6vw;
+        }
+    }
+}
 .fade-text {
     position: absolute;
     inset: 0;
@@ -375,12 +548,58 @@
     font-size: 2rem;
     opacity: 0;                 /* hidden at start */
     transition: opacity 0.3s ease;
+    &.collaborations-fade-text{
+        align-items: end;
+        opacity: 1;
+        @media(max-width:991px){
+            font-size: 2.5rem;
+        }
+        @media(max-width:767px){
+            font-size: 1.3rem;
+        }
+    }
+    &.gerobok-cendayam-text{
+        position: relative;
+        align-items: end;
+        text-align: justify;
+        opacity: 1;
+        font-size: 18px;
+        @media(max-width:767px){
+            font-size: 12px;
+        }
+        &.text-title{
+            font-size: 50px;
+            @media(max-width:767px){
+                font-size: 30px;
+            }
+        }
+    }
+}
+.gerobok-cendayam-center-bottom-text{
+    align-items: end;
+    text-align: justify;
+    font-size: 17px;
+    color: black;
+    @media(max-width:767px){
+        font-size: 12px;
+    }
 }
 
 /* Hover effect */
 .fade-wrapper:hover .fade-overlay {
     background: rgba(0, 0, 0, 0.5);
-}
+    &.collaborations-content-overlay{
+        opacity: 1;
+        background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.6) 15%,
+            rgba(0, 0, 0, 0) 30%,
+        );
+    }
+} 
+.fade-wrapper:hover .collaborations-img {
+    transform: scale(1.05);
+} 
 
 .fade-wrapper:hover .fade-text {
     opacity: 1;
@@ -388,6 +607,13 @@
 @media(max-width: 991px) {
     .fade-wrapper .fade-overlay {
         background: rgba(0, 0, 0, 0.5);
+        &.collaborations-content-overlay{
+        background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.6) 15%,
+            rgba(0, 0, 0, 0) 30%,
+        );
+    }
     }
     .fade-wrapper .fade-text {
         opacity: 1;
