@@ -13,4 +13,9 @@ class IndexController extends Controller
     {
         return view('inquiry');
     }
+
+    public function ourStory()
+    {
+        return view('our-story');
+    }
 }
