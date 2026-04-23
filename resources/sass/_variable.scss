@@ -1,5 +1,6 @@
 // Color
 $black: #1A1A1A;
+$grey: #999999;
 $white: #FFFFFF;
 $kitchen-tailor-main-color: #9e7e47;
 
@@ -7,6 +8,18 @@ $kitchen-tailor-main-color: #9e7e47;
 @font-face {
     font-family: 'Engravers-Gothic';
     src: url('/public/fonts/Engravers-Gothic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Engravers-Regular';
+    src: url('/public/fonts/Engravers-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Century-Gothic';
+    src: url('/public/fonts/Century-Gothic.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
