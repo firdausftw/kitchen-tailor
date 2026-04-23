@@ -73,7 +73,7 @@
                             </div>
                             <div class="d-flex gap-4">
                                 <i class="fa-solid fa-tree font-kitchen-tailor-icon inquiry-icon"></i>
-                                <h2 class="gothic-font-small gerobok-cendayam-center-bottom-text">Chengal</h2>
+                                <h2 class="gothic-font-small gerobok-cendayam-center-bottom-text">Semangkuk</h2>
                             </div>
                         </div>
                     </div>

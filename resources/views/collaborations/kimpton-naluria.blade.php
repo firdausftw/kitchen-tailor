@@ -28,7 +28,7 @@
                             <div class="fade-overlay collaborations-content-overlay gerobok-cendayam-overlay"></div>
                             <div class="gerobok-cendayam-text-box d-flex flex-column justify-content-end align-items-center">
                                 <div class="gothic-font-big fade-text gerobok-cendayam-text text-title">Kimpton Naluria</div>
-                                <div class="gothic-font-small fade-text gerobok-cendayam-text">This piece of furniture draws inspiration from the traditional kitchen furniture of the past, embodying the essence of practicality and craftsmanship that was valued in bygone days. It is a testament to refined craftsmanship and functionality, designed to meet the needs of a young family.</div>
+                                <div class="gothic-font-small fade-text gerobok-cendayam-text">Kimpton Naluria Kuala Lumpur is Malaysia's first Kimpton luxury lifestyle hotel, strategically located in Tun Razak Exchange (TRX), Kuala Lumpur's premier financial and lifestyle district. Surrounded by upscale retail, dining, and direct MRT connectivity, the hotel offers modern luxury, premium comfort, and exceptional hospitality in the heart of the city.</div>
                             </div>
                         </div>
                     </div>
@@ -36,11 +36,6 @@
                     <div class="col-12 col-lg-7 d-flex flex-column gap-2 collaboration-img-wrapper justify-content-between">
                         <div class="center-top-wrapper kimpton-naluria-container order-1">
                             <img src="/images/kitchen-tailor/kimpton-naluria/Collaborations-2.jpg" class="gerobok-img img-center-top">
-                            <div class="fade-overlay collaborations-content-overlay gerobok-cendayam-overlay"></div>
-                            <div class="gerobok-cendayam-text-box center-box d-flex flex-column justify-content-end align-items-start">
-                                <div class="gothic-font-small fade-text gerobok-cendayam-text">Two Piece Modular Unit</div>
-                                <div class="gothic-font-small fade-text gerobok-cendayam-text">Use separately or combine as one</div>
-                            </div>
                         </div>
                         <div class="col-12 d-flex flex-column flex-lg-row gap-2 center-bottom-wrapper kimpton-naluria-wrapper order-3 order-lg-2">
                             <div class="col-12 col-lg-6">
@@ -51,7 +46,9 @@
                             </div>
                         </div>
                         <div class="order-2 order-lg-3">
-                            <div class="gothic-font-small gerobok-cendayam-center-bottom-text">This piece of furniture draws inspiration from the traditional kitchen furniture of the past, embodying the essence of practicality and craftsmanship that was valued in bygone days. It is a testament to refined craftsmanship and functionality, designed to meet the needs of a young family.</div>
+                            <div class="gothic-font-small gerobok-cendayam-center-bottom-text">At Kimpton Naluria, The Kitchen Tailor delivered bespoke kitchen and buffet solutions that combine refined aesthetics with everyday functionality. Designed to complement the hotel's premium hospitality concept, each installation was carefully tailored to enhance guest experience while maintaining operational efficiency. <br>
+                            Our scope included custom modular kitchen islands, buffet counters, display cabinetry, and integrated service stations, all crafted with precision detailing and durable materials suitable for high-traffic hospitality environments. <br>
+                            The result is a sophisticated culinary space that reflects modern luxury, seamless workflow, and timeless craftsmanship — showcasing The Kitchen Tailor's expertise in creating functional spaces with elevated design.</div>
                         </div>
                     </div>
                 
