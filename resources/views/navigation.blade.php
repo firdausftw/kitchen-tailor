@@ -6,11 +6,17 @@
                     <i class="fa-solid fa-xmark font-kitchen-tailor-icon"></i>
                 </button>
             </div>
-            <div class="col-12 font-kitchen-tailor d-flex flex-column align-items-center align-items-lg-start" style="gap: 20px; padding-bottom:25px;">
-                <h3 class="gothic-font kitchen-tailor-font-navigation">Designs</h3>
-                <h3 class="gothic-font kitchen-tailor-font-navigation">Inspirations</h3>
-                <h3 class="gothic-font kitchen-tailor-font-navigation">Info</h3>
-                <h3 class="gothic-font kitchen-tailor-font-navigation">Contact</h3>
+            <div class="col-12 d-flex flex-column align-items-center align-items-lg-start" style="gap: 20px; padding-bottom:25px;">
+                <a href="{{ route('our-story-page') }}" class="text-decoration-none font-kitchen-tailor">
+                    <h3 class="gothic-font kitchen-tailor-font-navigation font-kitchen-tailor active">Our Story</h3>
+                </a>
+                <a href="{{ route('collaboration-page') }}" class="text-decoration-none font-kitchen-tailor">
+                    <h3 class="gothic-font kitchen-tailor-font-navigation active">Collaborations</h3>
+                </a>
+                <h3 class="gothic-font kitchen-tailor-font-navigation font-kitchen-tailor-grey">Designs</h3>
+                <h3 class="gothic-font kitchen-tailor-font-navigation font-kitchen-tailor-grey">Inspirations</h3>
+                <h3 class="gothic-font kitchen-tailor-font-navigation font-kitchen-tailor-grey">Info</h3>
+                <h3 class="gothic-font kitchen-tailor-font-navigation font-kitchen-tailor-grey">Contact</h3>
             </div>
             <div class="col-12 d-flex gap-4 justify-content-center justify-content-lg-start">
                 <a href="#">

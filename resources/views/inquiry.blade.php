@@ -13,11 +13,11 @@
                 <div class="col-12 font-kitchen-tailor d-flex-center flex-wrap flex-md-nowrap gap-4 gap-md-2">
                     <div class="col-12 col-md-6 d-flex-center font-kitchen-tailor gap-2">
                         <i class="fa-solid fa-phone font-kitchen-tailor-icon inquiry-icon"></i>
-                        <h2 class="gothic-font kitchen-tailor-font-inquiry-2 text-center">+603 4256 7171</h2>
+                        <h2 class="gothic-font-small kitchen-tailor-font-inquiry-2 text-center">+603 4256 7171</h2>
                     </div>
                     <div class="col-12 col-md-6 d-flex-center font-kitchen-tailor gap-2">
                         <i class="fa-solid fa-envelope font-kitchen-tailor-icon inquiry-icon"></i>
-                        <h2 class="gothic-font kitchen-tailor-font-inquiry-2 text-center">hello@thekitchentailor.com</h2>
+                        <h2 class="gothic-font-small kitchen-tailor-font-inquiry-2 text-center">info.thekitchentailor@gmail.com</h2>
                     </div>
                 </div>
                 <div class="col-12 font-kitchen-tailor-black d-flex-center">

@@ -68,10 +68,10 @@
             <div class="row custom-container kitchen-tailor-end-container align-items-center">
                 <div class="col-12 d-flex flex-column flex-lg-row gap-2 gap-lg-0 justify-content-between">
                     <div class="col-12 col-lg-6 d-flex-center">
-                        <img src="/images/kitchen-tailor/Homepage-Banner-15.jpg" class="end-image">
+                        <img src="/images/kitchen-tailor/Homepage-Banner-17.jpeg" class="end-image">
                     </div>
                     <div class="col-12 col-lg-6 d-flex-center">
-                        <img src="/images/kitchen-tailor/Homepage-Banner.jpg" class="end-image">
+                        <img src="/images/kitchen-tailor/Homepage-Banner-16.jpeg" class="end-image">
                     </div>
                 </div>
                 
