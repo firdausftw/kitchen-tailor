@@ -49,7 +49,7 @@
 
         <div id="our-story-banner" class="container-fluid px-lg-0 px-4">
             <div class="row custom-container our-story-final-container align-items-end">
-                <div class="col-12 font-kitchen-tailor-black text-start">
+                <div class="col-12 font-kitchen-tailor-black text-center text-lg-start">
                     <h2 class="gothic-font-big font-our-story-final-text">BECAUSE TRUE LUXURY IS NOT JUST SEEN.</h2>
                     <h2 class="gothic-font-big font-our-story-final-text">IT IX EXPERIENCED, EVERY SINGLE DAY</h2>
                 </div>
