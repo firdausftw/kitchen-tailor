@@ -407,6 +407,31 @@
             }
         }
     }
+    .dropdown-content {
+        display: grid;
+        grid-template-rows: 0fr; /* Starts at 0 height */
+        transition: grid-template-rows 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        overflow: hidden;
+    }
+
+    /* 2. The Inner Wrapper (Crucial for the grid trick) */
+    .dropdown-content > div {
+        min-height: 0;
+    }
+
+    /* 3. The Icon - Move transition here so it works both ways */
+    .font-kitchen-tailor-icon {
+        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* 4. The Active States */
+    .dropdown.show .dropdown-content {
+        grid-template-rows: 1fr; /* Animates to full height */
+    }
+
+    .dropdown.show .font-kitchen-tailor-icon {
+        transform: rotate(180deg);
+    }
     #kitchen-tailor-inquiry-bg{
         background-image: url('/public/images/kitchen-tailor/Homepage-Banner-7.jpg');
         background-size: cover;

@@ -63,4 +63,14 @@ $(document).ready(function(){
 
     $("#open-nav-btn").on("click", openNav);
     $("#close-nav-btn").on("click", closeNav);
+    
+    $('.dropdown button').on('click', function() {
+        const $parent = $(this).closest('.dropdown');
+        
+        // Toggle the 'show' class on the clicked dropdown
+        $parent.toggleClass('show');
+
+        // Optional: Close other dropdowns when opening a new one
+        $('.dropdown').not($parent).removeClass('show');
+    }); 
 })
