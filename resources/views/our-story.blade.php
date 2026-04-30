@@ -23,7 +23,7 @@
             <div class="row custom-container our-story-text-container">
                 <div class="col-12 font-kitchen-tailor-black text-start d-flex flex-column flex-lg-row justify-content-center align-items-center gap-4">
                     <div class="col-12 col-lg-6 d-flex-center">
-                        <img src="/images/kitchen-tailor/Gerobok-Cendayam/Collaborations-5.jpeg" class="end-image our-story-img">
+                        <img src="/images/kitchen-tailor/gerobok-cendayam/Collaborations-5.jpeg" class="end-image our-story-img">
                     </div>
                     <div class="col-12 col-lg-6 font-kitchen-tailor-black text-start d-flex flex-column pt-4 pt-lg-0">
                         <h2 class="gothic-font-small font-our-story-content-text">Our story began with a deeply personal inspiration: the purity of home as seen through a child's eyes — where the kitchen is a place of warmth, connection, and quiet moments that shape a lifetime. This perspective became the foundation of our philosophy: to create spaces that are not only functional, but emotionally timeless.</h2>
