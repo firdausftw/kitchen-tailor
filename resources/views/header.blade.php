@@ -9,8 +9,8 @@
                 </button>
             </div>
             <div class="col-10 col-md-6 col-lg-8 font-kitchen-tailor d-flex justify-content-start px-2 justify-content-md-center px-md-0">
-                <a href="{{ route('home-page') }}" class="text-decoration-none">
-                    <h2 class="gothic-font font-kitchen-tailor kitchen-tailor-font-header text-center" style="margin: 0px 20px;">THE KITCHEN TAILOR</h2>
+                <a href="{{ route('home-page') }}" class="text-decoration-none d-flex justify-content-start justify-content-md-center">
+                    <img src="/Logo_1.png" class="header-img">
                 </a>
             </div>
             <div class="col-md-3 col-lg-4 d-md-flex d-none justify-content-center align-items-center">

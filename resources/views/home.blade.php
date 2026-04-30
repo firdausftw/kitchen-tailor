@@ -8,7 +8,9 @@
         <div id="kitchen-tailor-full-banner" class="container-fluid px-0">
             <div class="row custom-container kitchen-tailor-full-banner-container align-items-center">
                 <div class="d-flex-center">
-                    <h2 class="gothic-font font-kitchen-tailor kitchen-tailor-font-full-banner text-center">THE KITCHEN TAILOR</h2>
+                    <h2 class="gothic-font font-kitchen-tailor kitchen-tailor-font-full-banner text-center">
+                        <img src="/Logo_2.png" class="header-img homepage">
+                    </h2>
                 </div>
             </div>
         </div>
@@ -71,7 +73,7 @@
             <div class="row custom-container kitchen-tailor-end-container align-items-center">
                 <div class="col-12 d-flex flex-column flex-lg-row gap-2 gap-lg-0 justify-content-between">
                     <div class="col-12 col-lg-6 d-flex-center">
-                        <img src="/images/kitchen-tailor/Homepage-Banner-15.jpeg" class="end-image">
+                        <img src="/images/kitchen-tailor/Homepage-Banner-15.jpg" class="end-image">
                     </div>
                     <div class="col-12 col-lg-6 d-flex-center">
                         <img src="/images/kitchen-tailor/Homepage-Banner-16.jpeg" class="end-image">

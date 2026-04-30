@@ -61,9 +61,9 @@
     }
 
     &.kitchen-tailor-header-container{
-        padding: 1vw 6vw;
+        padding: 0.2vw 6vw;
         @media(max-width:991px){
-            padding: 3vw 0;
+            padding: 1vw 0;
         }
     }
     &.kitchen-tailor-fade-container, &.kitchen-tailor-end-container{
@@ -257,21 +257,6 @@
         }
         @media(max-width:767px){
             font-size: 23px;
-        }
-    }
-    .kitchen-tailor-font-header{
-        font-size: 38px;
-        @media(max-width:1999px){
-            font-size: 38px;
-        }
-        @media(max-width:1499px){
-            font-size: 28px;
-        }
-        @media(max-width:991px){
-            font-size: 28px;
-        }
-        @media(max-width:767px){
-            font-size: 24px;
         }
     }
     .kitchen-tailor-font-footer{
@@ -593,6 +578,13 @@
     width: 97%;
     object-fit: contain;
     &.our-story-img{
+        width: 100%;
+    }
+}
+.header-img{
+    width: 60%;
+    object-fit: contain;
+    &.homepage{
         width: 100%;
     }
 }
