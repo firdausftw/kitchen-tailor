@@ -17,12 +17,10 @@
             <div class="row custom-container kitchen-tailor-home-container align-items-center">
                 <div class="fade-slider">
                     <img src="/images/kitchen-tailor/Homepage-Banner-8.jpg" class="slide active">
-                    <img src="/images/kitchen-tailor/bathroom/Bathroom-4.jpeg" class="slide">
-                    <img src="/images/kitchen-tailor/kitchen/Kitchen-2.jpeg" class="slide">
-                    <img src="/images/kitchen-tailor/bathroom/Bathroom-7.jpeg" class="slide">
-                    <img src="/images/kitchen-tailor/kitchen/Kitchen-5.jpeg" class="slide">
                     <img src="/images/kitchen-tailor/bathroom/Bathroom-9.jpeg" class="slide">
                     <img src="/images/kitchen-tailor/Homepage-Banner-9.jpg" class="slide">
+                    <img src="/images/kitchen-tailor/bathroom/Bathroom-4.jpeg" class="slide">
+                    <img src="/images/kitchen-tailor/Homepage-Banner-17.jpeg" class="slide">
                 </div>
             </div>
         </div>
@@ -73,7 +71,7 @@
             <div class="row custom-container kitchen-tailor-end-container align-items-center">
                 <div class="col-12 d-flex flex-column flex-lg-row gap-2 gap-lg-0 justify-content-between">
                     <div class="col-12 col-lg-6 d-flex-center">
-                        <img src="/images/kitchen-tailor/Homepage-Banner-17.jpeg" class="end-image">
+                        <img src="/images/kitchen-tailor/Homepage-Banner-15.jpeg" class="end-image">
                     </div>
                     <div class="col-12 col-lg-6 d-flex-center">
                         <img src="/images/kitchen-tailor/Homepage-Banner-16.jpeg" class="end-image">
