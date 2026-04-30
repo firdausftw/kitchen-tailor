@@ -57,10 +57,7 @@
                         </div>
                     </div>
                 @endforeach
-                <a href="#" class="text-decoration-none font-kitchen-tailor">
-                    <h3 class="gothic-font kitchen-tailor-font-navigation font-kitchen-tailor active">Request for Appointment</h3>
-                </a>
-                <h3 class="gothic-font kitchen-tailor-font-navigation font-kitchen-tailor-grey">Info</h3>
+                <h3 class="gothic-font kitchen-tailor-font-navigation font-kitchen-tailor-grey">Showroom</h3>
                 <h3 class="gothic-font kitchen-tailor-font-navigation font-kitchen-tailor-grey">Contact</h3>
             </div>
             <div class="col-12 d-flex gap-4 justify-content-center justify-content-lg-start">

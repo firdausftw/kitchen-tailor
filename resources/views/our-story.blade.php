@@ -14,7 +14,7 @@
         <div id="our-story-desc" class="container-fluid px-lg-0 px-4">
             <div class="row custom-container our-story-desc-container d-flex justify-content-center align-items-center">
                 <div class="col-12 col-lg-8 font-kitchen-tailor-black text-center">
-                    <h2 class="gothic-font-big font-our-story-desc-text">At the heart of every exceptional home lies a kitchen - not merely as a space, but as a statement of living.</h2>
+                    <h2 class="gothic-font-small font-our-story-desc-text">At the heart of every exceptional home lies a kitchen - not merely as a space, but as a statement of living.</h2>
                 </div>
             </div>
         </div>
@@ -51,8 +51,8 @@
         <div id="our-story-desc" class="container-fluid px-lg-0 px-4">
             <div class="row custom-container our-story-desc-container final-container d-flex justify-content-center align-items-center">
                 <div class="col-12 font-kitchen-tailor-black text-center">
-                    <h2 class="gothic-font-big font-our-story-desc-text final-text">BECAUSE TRUE LUXURY IS NOT JUST SEEN.</h2>
-                    <h2 class="gothic-font-big font-our-story-desc-text final-text">IT IX EXPERIENCED, EVERY SINGLE DAY</h2>
+                    <h2 class="gothic-font-small font-our-story-desc-text">Because true luxury is not just seen.</h2>
+                    <h2 class="gothic-font-small font-our-story-desc-text">It is experienced, every single day</h2>
                 </div>
             </div>
         </div>
