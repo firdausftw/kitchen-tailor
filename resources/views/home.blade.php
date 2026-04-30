@@ -46,12 +46,12 @@
                         <div class="gothic-font fade-text">KITCHEN</div>
                     </div>
                     <div class="col-12 col-md-4 fade-wrapper">
-                        <img src="/images/kitchen-tailor/bathroom/Bathroom-3.jpeg" class="fade-img">
+                        <img src="/images/kitchen-tailor/bathroom/Bathroom-10.jpeg" class="fade-img">
                         <div class="fade-overlay"></div>
                         <div class="gothic-font fade-text">BATHROOM</div>
                     </div>
                     <div class="col-12 col-md-4 fade-wrapper">
-                        <img src="/images/kitchen-tailor/wardrobe/Wardrobe-1.jpeg" class="fade-img">
+                        <img src="/images/kitchen-tailor/wardrobe/Wardrobe-5.jpeg" class="fade-img">
                         <div class="fade-overlay"></div>
                         <div class="gothic-font fade-text">WARDROBE</div>
                     </div>
@@ -73,7 +73,7 @@
             <div class="row custom-container kitchen-tailor-end-container align-items-center">
                 <div class="col-12 d-flex flex-column flex-lg-row gap-2 gap-lg-0 justify-content-between">
                     <div class="col-12 col-lg-6 d-flex-center">
-                        <img src="/images/kitchen-tailor/Homepage-Banner-15.jpg" class="end-image">
+                        <img src="/images/kitchen-tailor/Homepage-Banner-18.jpg" class="end-image">
                     </div>
                     <div class="col-12 col-lg-6 d-flex-center">
                         <img src="/images/kitchen-tailor/Homepage-Banner-16.jpeg" class="end-image">
