@@ -39,6 +39,10 @@
     "file": "assets/Collaborations-1-DPtNi3tI.jpg",
     "src": "public/images/kitchen-tailor/kimpton-naluria/Collaborations-1.jpg"
   },
+  "public/images/kitchen-tailor/kimpton-naluria/Collaborations-2.jpg": {
+    "file": "assets/Collaborations-2-mLP3NmTj.jpg",
+    "src": "public/images/kitchen-tailor/kimpton-naluria/Collaborations-2.jpg"
+  },
   "public/images/kitchen-tailor/kimpton-naluria/Collaborations-5.jpg": {
     "file": "assets/Collaborations-5-DrS4fAse.jpg",
     "src": "public/images/kitchen-tailor/kimpton-naluria/Collaborations-5.jpg"
@@ -50,7 +54,7 @@
     "isEntry": true
   },
   "resources/sass/app.scss": {
-    "file": "assets/app-CsEQv8PD.css",
+    "file": "assets/app-BFWU15xp.css",
     "name": "app",
     "names": [
       "app.css"
@@ -68,7 +72,8 @@
       "assets/Homepage-Banner-7-DqXagPUm.jpg",
       "assets/Collaborations-5-DrS4fAse.jpg",
       "assets/Collaborations-1-D1KaCKXz.jpeg",
-      "assets/Collaborations-1-DPtNi3tI.jpg"
+      "assets/Collaborations-1-DPtNi3tI.jpg",
+      "assets/Collaborations-2-mLP3NmTj.jpg"
     ]
   }
 }

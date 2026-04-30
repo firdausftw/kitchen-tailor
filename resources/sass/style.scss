@@ -31,25 +31,25 @@
             padding: 8vw 0;
         }
     }
-    &.our-story-container{
-        padding: 4vw 6vw 0 6vw;
+    &.our-story-desc-container{
+        padding: 4vw 6vw;
         @media(max-width:991px){
-            padding: 10vw 0 0 0;
+            padding: 5vw 5vw 0 5vw;
+        }
+        &.final-container{
+            padding: 0vw 6vw 4vw 6vw;
+            @media(max-width:991px){
+                padding: 0 5vw 5vw 5vw;
+            }
+        }
+    }
+    &.our-story-text-container{
+        padding: 0vw 6vw 4vw 6vw;
+        @media(max-width:991px){
+            padding: 5vw;
         }
         @media(max-width:767px){
-            padding: 13vw 0 0 0;
-        }
-    }
-    &.our-story-desc-container{
-        padding: 1vw 6vw 1vw 6vw;
-        @media(max-width:991px){
-            padding: 2vw 6vw 2vw 6vw;
-        }
-    }
-    &.our-story-final-container{
-        padding: 0 6vw;
-        @media(max-width:991px){
-            padding: 2vw 0;
+            padding: 5vw 2vw;
         }
     }
     &.kitchen-tailor-home-container{
@@ -208,15 +208,6 @@
             font-size: 13px;
         }
     }
-    .font-our-story-title{
-        font-size: 80px;    
-        @media(max-width:991px){
-            font-size: 34px;
-        }
-        @media(max-width:767px){
-            font-size: 23px;
-        }
-    }
     .font-designer{
         font-size: 80px;    
         @media(max-width:991px){
@@ -234,29 +225,23 @@
         }
     }
     .font-our-story-desc-text{
-        font-size: 27px;
+        font-size: 26px;
         font-weight: 600;
         @media(max-width:991px){
             font-size: 20px;
         }
         @media(max-width:767px){
-            font-size: 15px;
+            font-size: 13px;
+        }
+        &.final-text{
+            font-weight: 500;
         }
     }
     .font-our-story-content-text{
         font-size: 18px;
         text-align: justify;
         @media(max-width:767px){
-            font-size: 15px;
-        }
-    }
-    .font-our-story-final-text{
-        font-size: 33px;
-        @media(max-width:991px){
-            font-size: 24px;
-        }
-        @media(max-width:767px){
-            font-size: 18px;
+            font-size: 12px;
         }
     }
     .kitchen-tailor-font-title-1{
@@ -475,6 +460,9 @@
         &.kimpton-naluria-container{
             background-image: url('/public/images/kitchen-tailor/kimpton-naluria/Collaborations-1.jpg');
         }
+        &.our-story-container{
+            background-image: url('/public/images/kitchen-tailor/kimpton-naluria/Collaborations-2.jpg');
+        }
         @media(max-width:991px){
             min-height: 45vh;
         }
@@ -514,9 +502,6 @@
     width: 97%;
     border-radius: 10px;
     overflow: hidden;   /* ensures overlay stays inside */
-}
-.our-story-top-wrapper{
-    height: 40vh;
 }
 .collaboration-img-wrapper{
     height: fit-content;
@@ -573,15 +558,6 @@
     object-fit: contain;
     border-radius: 10px;
 }
-.our-story-title-img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    @media(max-width:991px){
-        border-radius: 0;
-    }
-}
 .gerobok-img{
     height: 100%;
     width: 100%;
@@ -616,6 +592,9 @@
     border-radius: 10px;
     width: 97%;
     object-fit: contain;
+    &.our-story-img{
+        width: 100%;
+    }
 }
 
 .collaborations-img{
