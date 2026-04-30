@@ -11,14 +11,6 @@
             </div>
         </div>
 
-        <div id="kitchen-tailor-title-1" class="container-fluid px-lg-0 px-4">
-            <div class="row custom-container collaborations-text-container align-items-center">
-                <div class="col-12 font-kitchen-tailor d-flex-center">
-                    <h2 class="gothic-font font-collaborations-text text-center">OUR WORK HAS TAKEN US ACROSS THE GLOBE. NO MATTER WHERE YOU LIVE OR HOW FAR YOU MAY BE FROM A SHOWROOM, WE HAVE THE ABILITY TO WORK WITH YOU. WE ENCOURAGE YOU TO VISIT ONE OF OUR SHOWROOMS TO SEE OUR CABINETRY FIRSTHAND, BUT PLEASE REACH OUT IF YOU CAN'T MAKE THE TRIP. WHEREVER YOU ARE, WE CAN BE THERE FOR YOU AND WE CAN WORK WITH YOU.</h2>
-                </div>
-            </div>
-        </div>
-
         <div id="kitchen-tailor-designer-1" class="container-fluid px-lg-0 px-4">
             <div class="row custom-container gerobok-designer-container">
                 <div class="col-12 d-flex flex-column flex-lg-row gap-2">
@@ -67,7 +59,7 @@
         </div>
 
         <div id="gerobok-cendayam" class="container-fluid px-lg-0 px-4">
-            <div class="row custom-container gerobok-cendayam-img-container">
+            <div class="row custom-container gerobok-cendayam-img-container no-padding">
                 <div class="col-12 d-flex flex-column flex-lg-row justify-content-center align-items-start gap-2">
                     <div class="col-12 col-lg-5 collaboration-img-wrapper">
                         <div class="left-top-wrapper">

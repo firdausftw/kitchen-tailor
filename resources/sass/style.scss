@@ -22,15 +22,6 @@
     @media(max-width:991px){
         padding: 4vw 0;
     }
-    &.collaborations-text-container{
-        padding: 4vw 14vw;
-        @media(max-width:991px){
-            padding: 5vw;
-        }
-        @media(max-width:767px){
-            padding: 8vw 0;
-        }
-    }
     &.our-story-desc-container{
         padding: 4vw 6vw;
         @media(max-width:991px){
@@ -75,10 +66,22 @@
             padding: 3vw 0;
         }
     }
-    &.collaborations-content-container, &.gerobok-cendayam-img-container, &.gerobok-designer-container{
+    &.collaborations-content-container{
         padding: 0vw 6vw 4vw 6vw;
         @media(max-width:767px){
             padding: 0;
+        }
+    }
+    &.gerobok-cendayam-img-container{
+        padding: 4vw 6vw;
+        @media(max-width:767px){
+            padding: 4vw 0;
+        } 
+        &.no-padding{
+            padding: 0vw 6vw 4vw 6vw;
+            @media(max-width:767px){
+                padding: 4vw 0;
+            } 
         }
     }
     &.gerobok-designer-container{
@@ -202,12 +205,6 @@
             font-size: 23px;
         }
     }
-    .font-collaborations-text{
-        font-size: 18px;
-        @media(max-width:767px){
-            font-size: 13px;
-        }
-    }
     .font-designer{
         font-size: 80px;    
         @media(max-width:991px){
@@ -232,9 +229,6 @@
         }
         @media(max-width:767px){
             font-size: 13px;
-        }
-        &.final-text{
-            font-weight: 500;
         }
     }
     .font-our-story-content-text{
